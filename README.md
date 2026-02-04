@@ -13,8 +13,9 @@
 
 This repository contains **all three parts of Assignment-01**, implemented step by step:
 
-1. **TOPSIS as a Python Command-Line Program**
-2. **TOPSIS as a Web Service**
+1. **TOPSIS as a PyPI Package**
+2. **TOPSIS as a Python Command-Line Program**
+3. **TOPSIS as a Web Service**
 
 Each part builds upon the previous one.
 
@@ -25,15 +26,44 @@ Each part builds upon the previous one.
 Assignment01/
 │
 ├── topsis/                           
-│   # Part-I: PyPI package (Topsis-Tanya-102303077)
+│   # Part-I: PyPI package 
+│
+├── Topsis-Diya-102303694/           
+│   # Part-II: Python command-line implementation
 │
 ├── Topsis_web_service_102303694/     
-│   # Part-II: Flask-based web service
+│   # Part-III: Flask-based web service
 │
 └── README.md                         
 ```
 
-## Part-I: Python Command-Line Implementation
+---
+
+## Part-I: TOPSIS PyPI Package
+
+In this part, the TOPSIS algorithm is implemented as a **Python package** and published on **PyPI**.
+
+### Package Details
+
+* **Package Name:** `Topsis-Diya-102303694`
+* **Version:** 1.0.0
+* **PyPI Link:** [https://pypi.org/project/Topsis-Diya-102303694/1.0.0/]
+
+### Features
+
+* Installable using `pip`
+* Executable via command line
+* User manual provided
+* Tested after installation
+
+### Installation
+```bash
+pip install Topsis-Diya-102303694
+```
+
+---
+
+## Part-II: Python Command-Line Implementation
 
 This part contains a **standalone Python program** that implements the TOPSIS algorithm using command-line arguments.
 
@@ -80,7 +110,7 @@ Appropriate error messages are shown for invalid inputs.
 
 ---
 
-## Part-II: TOPSIS Web Service
+## Part-III: TOPSIS Web Service
 
 In this part, a **Flask-based web service** is developed for TOPSIS computation.
 
@@ -101,6 +131,7 @@ In this part, a **Flask-based web service** is developed for TOPSIS computation.
 * Email ID must be in valid format
 
 ---
+
 
 ## Technologies Used
 
