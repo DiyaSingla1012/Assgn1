@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Topsis_Diya_102303694.egg-info/PKG-INFO
+Topsis_Diya_102303694.egg-info/SOURCES.txt
+Topsis_Diya_102303694.egg-info/dependency_links.txt
+Topsis_Diya_102303694.egg-info/entry_points.txt
+Topsis_Diya_102303694.egg-info/requires.txt
+Topsis_Diya_102303694.egg-info/top_level.txt
+topsis_Diya_102303694/__init__.py
+topsis_Diya_102303694/topsis.py

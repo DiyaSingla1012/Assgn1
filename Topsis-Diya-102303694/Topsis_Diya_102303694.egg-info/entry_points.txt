@@ -1,0 +1,2 @@
+[console_scripts]
+topsis = topsis_diya_102303694.topsis:run
